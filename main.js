@@ -36,15 +36,15 @@ document.body.onkeydown = function(keypress_event){
   if (key == "1") {
     text_color = "red";
   } else if (key == "2") {
-    document.body.style.backgroundColor = "orange";
+    text_color = "orange";
   } else if (key == "3") {
-    document.body.style.backgroundColor = "yellow";
+    text_color = "yellow";
   } else if (key == "4") {
-    document.body.style.backgroundColor = "green";
+    text_color = "green";
   } else if (key == "5") {
-    document.body.style.backgroundColor = "blue";
+    text_color = "blue";
   } else if (key == "6") {
-    document.body.style.backgroundColor = "purple";
+    text_color = "purple";
   } else {
     text_color = "black";
   }
